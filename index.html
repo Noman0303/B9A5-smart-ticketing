@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Ticketing </title>
+
+        <!-- daisy UI and Tailwind -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    
+        <!-- custom css -->
+        <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <!-- nevigation section -->
+        <nav class="font-raleway lg:mx-32 mb-12 ">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-medium">
+                      <li><a>Home </a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost font-extrabold text-4xl">New-travels</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 font-medium">
+                    <li><a>Home </a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn flex bg-green-100 border border-green-500 lg:w-32 h-14 font-bold text-xl text-green-600">Bus<img src="./images/bus-icon.png " alt=""></a>
+                </div>
+              </div>
+        </nav>
+        <!-- banner section -->
+        <section class=" lg:mx-32  ">
+            <div class="hero min-h-screen rounded-3xl z-index:0" style="background-image:url(./images/banner.png)">
+                  <div class="max-w text-center text-white min-h-full">
+                    <h1 class=" text-5xl font-extrabold lg:text-6xl font-raleway mt-28">End-to-End Travel with <br> <span class="text-[#1DD100]">New Travels</span></h1>
+                    <p class="mt-4 mb-5 max-w-screen-md">Join us on the road to community connection, where every journey is a promise fulfilled. Your trust is our fuel, ensuring seamless travels as we embark together on the adventure of transportation excellence.</p>
+                    <button class="btn font-raleway font-bold text-xl bg-[#1DD100] mt-24">Buy Tickets</button>
+                </div>
+            </div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 max-w-4xl ml-10 lg:mx-auto z-index:1 mt-4 lg:-mt-11 gap-4 ">
+                   <div class="flex rounded-3xl border-2 border-b-green-500 w-72 h-32 bg-white">
+                       <figure class="my-auto"><img src="./images/people.png" alt="people-icon"/></figure>
+                       <div class="card-body">
+                         <h2 class="card-title">500K+</h2>
+                         <p>Registered users</p>
+                       </div>
+                   </div>
+                   <div class="card card-side shadow-xl rounded-3xl border-2 border-b-green-500 w-72 h-32 bg-white ">
+                       <figure><img src="./images/ticket-cupon.png" alt="people-icon"/></figure>
+                       <div class="card-body">
+                         <h2 class="card-title">1.7 lacks</h2>
+                         <p>Tickets sold</p>
+                       </div>
+                   </div>
+                   <div class="card card-side shadow-xl rounded-3xl border-2 border-b-green-500 w-72 h-32 bg-white">
+                       <figure><img src="./images/stoppage.png" alt="people-icon"/></figure>
+                       <div class="card-body">
+                         <h2 class="card-title">80K+</h2>
+                         <p>Rental partners</p>
+                       </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Best offer section -->
+        <section>
+            <h1 class="font-raleway font-bold text-4xl text-center mt-32">Best Offers for you</h1>
+            <div class="flex gap-6 mt-8 lg:mx-32" >
+                <div class="flex w-full bg-yellow-500 min-h-56 rounded-3xl">
+                    <div class="w-4/6 font-inter text-center pt-16">
+                        <h2 class="font-extrabold text-4xl">15% OFF</h2>
+                        <P class="font-semibold">on your next purchase</P> 
+                        <p class="font-medium">use by January 2024 </p>
+                    </div>
+                    <div class="divide-x h-56 border-2 border-dashed "></div>
+                    <div class="w-2/6 font-raleway text-center pt-20 ">
+                        <h2 class="font-bold text-3xl ">NEW15</h2>
+                        <P class="font-medium text-lg">Coupon Code</P>
+                    </div>
+                  </div>
+                  <div class="flex w-full bg-pink-500 min-h-56 rounded-3xl">
+                    <div class="w-4/6 font-inter text-center pt-16">
+                        <h2 class="font-extrabold text-4xl">20% OFF</h2>
+                        <P class="font-semibold">on your next purchase</P> 
+                        <p class="font-medium">use by January 2024 </p>
+                    </div>
+                    <div class="divide-x h-56 border-2 border-dashed "></div>
+                    <div class="w-2/6 font-raleway text-center pt-20 ">
+                        <h2 class="font-bold text-3xl ">Couple 20</h>
+                        <P class="font-medium text-lg">Coupon Code</P>
+                    </div>
+                  </div>
+            </div>
+            <button>See All Offers</button>
+        </section>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
