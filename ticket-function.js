@@ -1,3 +1,24 @@
+function getConvertedValue(id){
+    const selectedItemString = document.getElementById(id).innerText;
+    const selectedItemValue = parseInt(selectedItemString)
+    return selectedItemValue
+}
+
+const allbtn=document.getElementsByClassName(btn-selected)
+
+for (const btn of allbtn) {
+    btn.addEventListener("click",function(event){
+        console.log(event)
+    })
+}
+
+const seatnumber = document.getElementById(seat-number).innertext
+const class = document.getElementById(Economy).innertext
+const seatValue = document.getElementById(value).innertext
+
+di
+
+
 // coupon apply
 
 function applyCoupon() {
